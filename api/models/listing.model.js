@@ -51,7 +51,7 @@ const listingSchema = new mongoose.Schema({
     },
     userRef:{
         type:String,
-        requires:true,
+        required:true,
     }
 },{timestamps:true}
 );
